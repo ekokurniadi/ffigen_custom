@@ -14,7 +14,7 @@ dependencies:
   ffi:
     git:
       url: https://github.com/ekokurniadi/ffi_custom.git
-      ref: 2c581a6
+      ref: e406024
   yaml: ^3.0.0
   path: ^1.8.0
   quiver: ^3.0.0
