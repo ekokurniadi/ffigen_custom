@@ -8,10 +8,11 @@ description: Generator for FFI bindings, using LibClang to parse C header files.
 repository: https://github.com/dart-lang/ffigen
 
 environment:
-  sdk: '>=2.17.0 <3.0.0'
+  sdk: '>=2.14.0 <3.0.0'
 
 dependencies:
-  ffi: ^2.0.1
+  ffi:
+    git: https://github.com/ekokurniadi/ffi_custom.git
   yaml: ^3.0.0
   path: ^1.8.0
   quiver: ^3.0.0
