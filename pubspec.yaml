@@ -12,7 +12,9 @@ environment:
 
 dependencies:
   ffi:
-    git: https://github.com/ekokurniadi/ffi_custom.git
+    git:
+      url: https://github.com/ekokurniadi/ffi_custom.git
+      ref: 2c581a6
   yaml: ^3.0.0
   path: ^1.8.0
   quiver: ^3.0.0
